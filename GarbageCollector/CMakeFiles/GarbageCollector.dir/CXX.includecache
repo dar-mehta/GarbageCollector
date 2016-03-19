@@ -9,6 +9,12 @@
 /Users/Dar/GitHub/GarbageCollector/GarbageCollector/GarbageCollector.cpp
 iostream
 -
+string
+-
+cstdlib
+-
+vector
+-
 opencv2/opencv.hpp
 -
 opencv2/xfeatures2d/nonfree.hpp
