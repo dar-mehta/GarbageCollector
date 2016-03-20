@@ -139,7 +139,33 @@ void setup() {
   
 }
 
+int inByte1 = 0;
+int inByte2 = 0;
+bool execute = false;
+
 void loop() {
+
+  if (Serial.available() > 0) {
+    inByte1 = Serial.read();
+    inByte2 = Serial.read();
+    
+    switch (inByte1) {
+      case 'a':
+        
+      case 'b':
+
+      case 'c':
+
+      case 'd':
+
+      default:
+      
+    }
+  }
+  if (turnLight) {
+    Serial.println(inByte);
+  }
+  Serial.print(70);
 
   Serial.println("a");
   delay(1);

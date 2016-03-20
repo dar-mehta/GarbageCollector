@@ -2,6 +2,7 @@
 #include <tchar.h>
 #include "SerialClass.h"	// Library described above
 #include <string>
+#include <iostream>
 
 // application reads from the specified serial port and reports the collected data
 int main()
@@ -25,15 +26,20 @@ int main()
 		// printf("Bytes read: (0 means no data available) %i\n",readResult);
 		incomingData[readResult] = 0;
 
-		Sleep(1000);
 
-		printf("%s", incomingData);
+		//printf("%s", incomingData);
 
-		Sleep(1000);
+		//Sleep(1000);
 
-		printf("%s", incomingData);
+		//printf("%s", incomingData);
 
-		SP->WriteData("a", 1);
+		std::cout << "Enter data" << std::endl;
+		char cinval1;
+		char cinval2;
+		std::cin >> cinval1 >> cinval2;
+
+		SP->WriteData(&cinval1, cinval1);
+		SP->WriteData(&cinval2, cinval2);
 
 		Sleep(500);
 	}
