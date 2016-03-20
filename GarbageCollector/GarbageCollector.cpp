@@ -57,9 +57,9 @@ int main(int argc, const char * argv[]) {
         
         train_counter++;
     }
-    if (train_counter < 12)
+    if (train_counter < 8)
         cout << "Detected Juice Box; Recycle" << endl;
-    else if (train_counter < 19)
+    else if (train_counter < 15)
         cout << "Detected Coke Wrapper; Garbage" << endl;
     else
         cout << "Detected Water Bottle; Recycle" << endl;
@@ -122,6 +122,6 @@ bool wasteMatched (Mat img_object, Mat img_scene, vector<KeyPoint> &obj_keys, Ma
      
      imshow("test", img_matches);*/
     
-    //cout << "# of matches: " << goodMatches.size() << endl;
-    return goodMatches.size() > 2;
+    cout << "# of matches: " << goodMatches.size() << endl;
+    return goodMatches.size() > 15;
 }
