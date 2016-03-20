@@ -112,11 +112,11 @@ void inch(int tim) {
 //P
 void collect() {
 
+  collector.write(250);
+  delay(3590);
   collector.write(0);
-  delay(840);
-  collector.write(180);
-  delay(890);
-  collector.write(95);
+  delay(4040);
+  collector.write(0);
 }
 
 //U
@@ -176,15 +176,21 @@ void setup() {
   collector.attach(COLLECTOR);
   sorter.attach(SORTER);
 
-
+/*
+  collector.write(1800);
+  delay(300);
+  collector.write(0); */
+  
   collector.write(95); // neutral
   sorter.write(60); //one way
   
   delay(500);         
 
-  collect();
+  //topclaw();
+  //delay(1000);
+  //collect();
  
-  test();
+  //test();
   
 }
 

@@ -18,10 +18,10 @@ void loop() {
     delay(1);
   }
   
-  top.write(0);
-  delay(400);
   top.write(150);
-  delay(400);
+  delay(600);
+  top.write(100);
+  delay(600);
   top.write(100);
   
   delay(1);
