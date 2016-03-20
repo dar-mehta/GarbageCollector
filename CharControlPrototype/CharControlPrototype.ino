@@ -1,9 +1,18 @@
+#include <Servo.h>
+
+Servo serv;
+int pos = 0;
+
+
 void setup() {
   Serial.begin(9600);
   pinMode(13, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(11, OUTPUT);
   pinMode(10, OUTPUT);
+
+  pinMode(6, OUTPUT);
+  serv.attach(9);
 }
 
 int inByte1 = 0;
@@ -30,6 +39,17 @@ void loop() {
         digitalWrite(11, HIGH);
         delay(400);
         digitalWrite(11, LOW);
+      } else if (inByte1 == 'D') {
+        digitalWrite(10, HIGH);
+        delay(400);
+        digitalWrite(10, LOW);
+        
+      } else if (inByte1 == 'E') {
+        serv.write(90);
+      } else if (inByte1 == 'F') {
+        serv.write(180);
+      } else if (inByte1 == 'G') {
+         serv.write(0);
       }
 
       delay(10);
