@@ -61,12 +61,8 @@ int main(int argc, const char * argv[]) {
         cout << "Detected Juice Box; Recycle" << endl;
     else if (train_counter < 19)
         cout << "Detected Coke Wrapper; Garbage" << endl;
-    else if (train_counter < 30)
-        cout << "Detected Water Bottle; Recycle" << endl;
-    else if (train_counter < 35)
-        cout << "Detected Styrofoam; Garbage" << endl;
     else
-        cout << "Detected Sandwich; Garbage" << endl;
+        cout << "Detected Water Bottle; Recycle" << endl;
     //waitKey();
 }
 
