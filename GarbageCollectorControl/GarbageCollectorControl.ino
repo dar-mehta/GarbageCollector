@@ -3,12 +3,30 @@
 #define LEFT_FORWARD 6 //IN4
 #define RIGHT_BACKWARD 10 //IN2
 #define LEFT_BACKWARD 9 //IN3
-#define SERVO 5
+#define COLLECTOR 3
+#define SORTER 5
+#define OTHERARDUINO 12
 
 #include <Servo.h>
 
+//for Main CPP
+/*
+#define TURNRIGHT A
+#define TURNLEFT D
+#define DRIVE G
+#define DRIVESTOP K
+#define INCH N
+#define COLLECT P
+#define TESTFUNCTION U
+#define SWITCH X
+#define TOPCLAW Z
+*/
+
 Servo collector;
 int pos;
+
+Servo sorter;
+bool recycle = false;
 
 void wait(int milli) {
   int tim = millis();
@@ -28,31 +46,31 @@ void flash() {
   }
 }
 
-//[0, 254]
+//[0, 254], A
 void turnRight(unsigned int degree) {
   drive_stop();
   delay(1);
-  analogWrite(LEFT_FORWARD, 150);
-  analogWrite(RIGHT_BACKWARD, 150);
-  delay(degree*30);
+  analogWrite(LEFT_FORWARD, 210);
+  analogWrite(RIGHT_BACKWARD, 210);
+  delay(degree*5);
 
   drive_stop();
   delay(1);
 }
 
-//[0, 254]
+//[0, 254], D
 void turnLeft(unsigned int degree) {
   drive_stop();
   delay(1);
-  analogWrite(RIGHT_FORWARD, 150);
-  analogWrite(LEFT_BACKWARD, 150);
-  delay(degree*30);
+  analogWrite(RIGHT_FORWARD, 210);
+  analogWrite(LEFT_BACKWARD, 210);
+  delay(degree*5);
 
   drive_stop();
   delay(1);
 }
 
-//[-254, 254]
+//[-254, 254], G
 void drive(int spd) {
   drive_stop();
   delay(1);
@@ -66,6 +84,7 @@ void drive(int spd) {
   delay(1);
 }
 
+//K
 void drive_stop() {
   delay(1);
   analogWrite(RIGHT_FORWARD, 0);
@@ -75,7 +94,7 @@ void drive_stop() {
   delay(1);
 }
 
-//[-254,254]
+//[-254,254], N
 void inch(int tim) {
   delay(1);
   if (tim >= 0) {
@@ -90,58 +109,93 @@ void inch(int tim) {
   delay(1);
 }
 
+//P
 void collect() {
-  for (pos = 0; pos <= 180; pos += 1) {
-    collector.write(pos);              
-    delay(21);                      
-  }
-  delay(500);
-  for (pos = 180; pos >= 0; pos -= 1) {
-    collector.write(pos);              
-    delay(21);                       
-  }
+
+  collector.write(250);
+  delay(3590);
+  collector.write(0);
+  delay(4040);
+  collector.write(0);
 }
 
+//U
 void test() {
-  turnRight(50);
-  delay(500);
-  turnLeft(50);
-  delay(500);
+  turnRight(20);
+  //delay(300);
+  turnLeft(20);
+  //delay(300);
   drive_stop();
-  delay(500);
-  drive(750);
-  delay(500);
+  //delay(300);
+  drive(250);
+  //delay(300);
   drive_stop();
-  delay(500);
+  delay(300);
   inch(600);
-  delay(200);
-  //collect();
+  //delay(200);
+  //drive(-250);
+  //delay (300);
+  drive_stop();
+  collect();
 }
 
+//X
+void switch_() {
+  if (recycle) {
+    sorter.write(30); //one way
+    recycle = false;
+  } else {
+    sorter.write(160); //one way
+    recycle = true;
+  }
+}
+
+//Z
+void topclaw() {
+  digitalWrite(OTHERARDUINO, HIGH);
+  delay(300);
+  digitalWrite(OTHERARDUINO, LOW);
+  delay(1);
+}
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   
   pinMode(RIGHT_FORWARD, OUTPUT);
   pinMode(LEFT_FORWARD, OUTPUT);
   pinMode(RIGHT_BACKWARD, OUTPUT);
   pinMode(LEFT_BACKWARD, OUTPUT);
-  pinMode(SERVO, OUTPUT);
+  pinMode(COLLECTOR, OUTPUT);
+  pinMode(OTHERARDUINO, OUTPUT);
+  pinMode(SORTER, OUTPUT);
   
   pinMode(13, OUTPUT);
 
-  //collector.attach(SERVO);
-  
+  digitalWrite(OTHERARDUINO, LOW);
   drive_stop();
-  //flash();
-  delay(1);
+  collector.attach(COLLECTOR);
+  sorter.attach(SORTER);
+
+/*
+  collector.write(1800);
+  delay(300);
+  collector.write(0); */
+  
+  collector.write(95); // neutral
+  sorter.write(60); //one way
+  
+  delay(500);         
+
+  //topclaw();
+  //delay(1000);
+  //collect();
+ 
   //test();
   
 }
 
 int inByte1 = 0;
 int inByte2 = 0;
-bool execute = false;
 
 void loop() {
 
@@ -149,25 +203,31 @@ void loop() {
     inByte1 = Serial.read();
     inByte2 = Serial.read();
     
-    switch (inByte1) {
-      case 'a':
-        
-      case 'b':
-
-      case 'c':
-
-      case 'd':
-
-      default:
-      
+    if (inByte1 == 'A') {
+      //turnRight(static_cast<int>(inByte2));
+      turnRight(inByte2);
+    } else if (inByte1 == 'D') {
+      //turnLeft(static_cast<int>(inByte2));
+      turnLeft(inByte2);
+    } else if (inByte1 == 'G') {
+      //drive(static_cast<int>(inByte2));
+      drive(inByte2);
+    } else if (inByte1 == 'K') {
+      drive_stop();
+    } else if (inByte1 == 'N') {
+      inch(inByte2);
+      //inch(static_cast<int>(inByte2));
+    } else if (inByte1 == 'P') {
+      collect();
+    } else if (inByte1 == 'U') {
+      test();
+    } else if (inByte1 == 'X') {
+      switch_();
+    } else if (inByte1 == 'Z') {
+      topclaw(); 
     }
   }
-  if (turnLight) {
-    Serial.println(inByte);
-  }
-  Serial.print(70);
-
-  Serial.println("a");
-  delay(1);
+  delay(10);
 
 }
+
