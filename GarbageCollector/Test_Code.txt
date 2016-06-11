@@ -1,0 +1,53 @@
+./GarbageCollector robottest1.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg sf1.jpg sf2.jpg sf3.jpg sf4.jpg sf5.jpg sw1.jpg sw2.jpg sw3.jpg sw4.jpg sw5.jpg sw6.jpg sw7.jpg  
+
+./GarbageCollector robottest2.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg sf1.jpg sf2.jpg sf3.jpg sf4.jpg sf5.jpg sw1.jpg sw2.jpg sw3.jpg sw4.jpg sw5.jpg sw6.jpg sw7.jpg  
+
+./GarbageCollector robottest3.jpg jb1.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg sf1.jpg sf2.jpg sf3.jpg sf4.jpg sf5.jpg sw1.jpg sw2.jpg sw3.jpg sw4.jpg sw5.jpg sw6.jpg sw7.jpg  
+
+./GarbageCollector robottest4.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg sf1.jpg sf2.jpg sf3.jpg sf4.jpg sf5.jpg sw1.jpg sw2.jpg sw3.jpg sw4.jpg sw5.jpg sw6.jpg sw7.jpg  
+
+./GarbageCollector robottest5.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg sf1.jpg sf2.jpg sf3.jpg sf4.jpg sf5.jpg sw1.jpg sw2.jpg sw3.jpg sw4.jpg sw5.jpg sw6.jpg sw7.jpg
+
+./GarbageCollector robottest1.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg  
+
+./GarbageCollector robottest2.jpg jb1.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg
+
+./GarbageCollector robottest3.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg  
+
+**********NEWEST************
+
+./GarbageCollector robottest1.jpg jb1.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg sf1.jpg sf2.jpg sf3.jpg sf4.jpg sf5.jpg sw1.jpg sw2.jpg sw3.jpg sw4.jpg sw5.jpg sw6.jpg sw7.jpg
+
+./GarbageCollector robottest2.jpg jb1.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg sf1.jpg sf2.jpg sf3.jpg sf4.jpg sf5.jpg sw1.jpg sw2.jpg sw3.jpg sw4.jpg sw5.jpg sw6.jpg sw7.jpg
+
+./GarbageCollector robottest3.jpg jb1.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg sf1.jpg sf2.jpg sf3.jpg sf4.jpg sf5.jpg sw1.jpg sw2.jpg sw3.jpg sw4.jpg sw5.jpg sw6.jpg sw7.jpg
+
+*********NEWEST************
+
+./GarbageCollector robottest1.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg
+
+./GarbageCollector robottest2.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg
+
+./GarbageCollector robottest3.jpg jb1.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg 
+
+*******FIRST WEBCAM TRIAL*******
+
+./GarbageCollector robot_web_1.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg
+
+./GarbageCollector robot_web_2.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg
+
+./GarbageCollector robot_web_3.jpg jb1.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg 
+
+********SECOND WEBCAM TRIAL***********
+./GarbageCollector robot_test_1.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg
+
+./GarbageCollector robot_test_2.jpg jb1.jpg jb2.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg
+
+./GarbageCollector robot_test_3.jpg jb1.jpg jb3.jpg jb4.jpg jb5.jpg jb6.jpg jb7.jpg jb8.jpg jb_1.jpg jb_2.jpg jb_3.jpg ck1.jpg ck2.jpg ck3.jpg ck4.jpg ck5.jpg ck6.jpg ck7.jpg wb1.jpg wb2.jpg wb3.jpg wb4.jpg wb5.jpg wb6.jpg wb7.jpg wb_1.jpg wb_2.jpg wb_3.jpg wb_4.jpg 
+
+********THIRD WEBCAM TRIAL (WITH WEBCAM TRAINING IMAGES)************
+./GarbageCollector robot_1_test.png jb_web_1.png jb_web_2.png jb_web_3.png jb_web_4.png jb_web_5.png jb_web_6.png jb_web_7.png ck_web_1.png ck_web_2.png ck_web_3.png ck_web_4.png ck_web_5.png ck_web_6.png ck_web_7.png wb_web_1.png wb_web_2.png wb_web_3.png wb_web_4.png wb_web_5.png wb_web_6.png 
+
+./GarbageCollector robot_2_test.png jb_web_1.png jb_web_2.png jb_web_3.png jb_web_4.png jb_web_5.png jb_web_6.png jb_web_7.png ck_web_1.png ck_web_2.png ck_web_3.png ck_web_4.png ck_web_5.png ck_web_6.png ck_web_7.png wb_web_1.png wb_web_2.png wb_web_3.png wb_web_4.png wb_web_5.png wb_web_6.png 
+
+./GarbageCollector robot_3_test.png jb_web_1.png jb_web_2.png jb_web_3.png jb_web_4.png jb_web_5.png jb_web_6.png jb_web_7.png ck_web_1.png ck_web_2.png ck_web_3.png ck_web_4.png ck_web_5.png ck_web_6.png ck_web_7.png wb_web_1.png wb_web_2.png wb_web_3.png wb_web_4.png wb_web_5.png wb_web_6.png 
