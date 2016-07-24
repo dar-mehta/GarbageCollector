@@ -15,6 +15,9 @@ OpenCV was also used to perform image classification to determine whether an obj
 
 #### Results
 Unfortunately this project was perhaps a little bit too ambitious for a 24 hour hackathon. All the modules were completed but we did not have enough time to integrate them properly. Each module can be found in the following locations:
-Object Detection - main.cpp (in fact this program can be compiled and run from the command line; it will show the center points of objects on a flat, fairly uniform surface from a webcam feed)
-Object Classification - GarbageCollector folder
-Motor Control and Serial Communication - GarbageCollectorControl folder
+### Object Detection
+main.cpp (in fact this program can be compiled and run from the command line; it will show the center points of objects on a flat, fairly uniform surface from a webcam feed)
+### Object Classification 
+GarbageCollector folder
+### Motor Control and Serial Communication
+GarbageCollectorControl folder
